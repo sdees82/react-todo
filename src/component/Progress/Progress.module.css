@@ -1,0 +1,43 @@
+.h2, .p{
+    color: #BA8FD7;
+    display: inline-block;
+}
+.h2{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-right: auto;
+}
+.progressSection{
+    border-bottom: 1px solid #BA8FD7;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    padding-bottom: 1em;
+}
+.progressContainer{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.progressBar{
+    border: 3px solid #64049b;
+    border-radius: 50px;
+    height: 20px;
+    /* margin: 0 auto; */
+    width: 100%;
+    transition: width 1s ease-in-out;
+}
+
+.progressBarInner{
+    height: 100%;
+    background: #BA8FD7;
+    border-radius: 50px;
+    display: block;
+}
+.progressPercentage{
+    color:  #BA8FD7;
+    display: inline-block;
+    margin-left: auto;
+}

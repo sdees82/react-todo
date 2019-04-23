@@ -1,0 +1,18 @@
+.input:focus{
+    outline: #64049b;
+}
+.input{
+    box-sizing: border-box;
+    background:#0a0014;
+    border: 3px solid #64049b;
+    border-radius: 10px;
+    color: #BA8FD7;
+    font-size: 1em;
+    margin: 2em auto 0 auto;
+    padding: 1em 0 1em 10px;
+    width: 100%;
+}
+
+.input::placeholder{
+    color: #BA8FD7;
+}
