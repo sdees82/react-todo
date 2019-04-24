@@ -34,9 +34,12 @@ class App extends Component {
 
   //Removes tasks from list
   removeItem = (i) =>{
-    const ItemToRemove = this.state.listItems;
-    // map through list items and return new array of items minus the delete item
+    const ItemToRemove = [];
+    // map through list items, find and remove deleted item and return a new list of items
     const filteredState = this.state.listItems.filter((val, index) =>{
+      if(index === i){
+        ItemToRemove.push(val);
+      }
       return index !== i;
     });
     
